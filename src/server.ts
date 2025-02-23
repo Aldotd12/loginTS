@@ -4,7 +4,7 @@ import path from 'path';
 import { registerUser, loginUser } from './auth';
 
 const app = express();
-const PORT = 3000;
+const PORT = your_port;
 
 // Middleware para analizar JSON
 app.use(bodyParser.json());
