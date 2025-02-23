@@ -17,7 +17,7 @@ if (registerForm) {
     const password = document.getElementById('regPassword').value;
 
     try {
-      const response = await fetch('http://host/register', {
+      const response = await fetch('http://your_host/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password }),
